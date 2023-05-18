@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2? family=Bruno+Ace+SC&display=swap');
+*{    font-family: 'Bruno Ace SC', cursive;}
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+:root {
+  -moz-tab-size: 4;
+  -o-tab-size: 4;
+  tab-size: 4;
+}
+
+html {
+  line-height: 1.15;
+  -webkit-text-size-adjust: 100%;
+}
+
+body {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: column;
+  position: fixed;
+  bottom: 0;
+  left: 290px;
+  font-family: system-ui, -apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji';
+  
+}
+
+body::after {
+  content: '';
+  position: absolute;
+  top: 50%;
+  left: 60%;
+  transform: translate(-50%, -50%);
+  width: 150px;
+  height: 150px;
+  z-index: -1;
+  clip-path: polygon(100% 32%, 68% 0, 50% 0, 32% 0, 0 32%, 0 68%, 32% 100%, 50% 100%, 68% 100%, 100% 68%);
+}
+
+hr {
+  height: 0;
+  color: inherit;
+  
+}
+
+abbr[title] {
+  -webkit-text-decoration: underline dotted;
+  text-decoration: underline dotted;
+  
+}
+
+b,
+strong {
+  font-weight: bolder;
+}
+
+code,
+kbd,
+samp,
+pre {
+  font-family: ui-monospace, SFMono-Regular, Consolas, 'Liberation Mono', Menlo, monospace;
+  font-size: 1em;
+}
+
+small {
+  font-size: 80%;
+}
+
+sub,
+sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+}
+
+sub {
+  bottom: -0.25em;
+}
+
+sup {
+  top: -0.5em;
+}
+
+.texte {
+  position: relative;
+  z-index: 2;
+}
+
+ul {
+  list-style-type: none;
+}
+
+ 
+#ar{
+  color: rgba(3, 18, 156, 0.87);
+  font-size: 20px;
+  background-color: rgba(61, 60, 60, 0.63);
+  font-weight: bold;
+  border: 2px solid black;
+  border-radius: 10px;
+}
+
+#co{
+  color: rgb(255, 0, 0);
+  font-size: 20px;
+  background-color: rgba(61, 60, 60, 0.63);
+  font-weight: bold;
+  border: 2px solid black;
+  border-radius: 10px;
+}
+#ha{
+  color: rgb(255, 217, 0);
+  font-size: 20px;
+  background-color: rgba(61, 60, 60, 0.63);
+  font-weight: bold;
+  border: 2px solid black;
+  border-radius: 10px;
+}
+
+#sf{
+  color: rgb(28, 102, 197);
+  font-size: 20px;
+  background-color: rgba(61, 60, 60, 0.63);
+  font-weight: bold;
+  border: 2px solid black;
+  border-radius: 10px;
+}
+
+#nbj{
+  color: rgb(0, 238, 255);
+  font-size: 20px;
+  background-color: rgba(61, 60, 60, 0.63);
+  font-weight: bold;
+  border: 2px solid black;
+  border-radius: 10px;
+}
+
